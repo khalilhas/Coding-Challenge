@@ -7,7 +7,7 @@ body
   height: 120px;
   border: 1px solid #000;
 }
-.repo-image{
+.repo-image img{
   float:left;
   margin: 10px;
   width: 100px;
