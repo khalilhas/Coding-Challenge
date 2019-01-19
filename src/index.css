@@ -1,14 +1,34 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+body
+{
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
+.repo{
+  width:500px;
+  height: 120px;
+  border: 1px solid #000;
+}
+.repo-image{
+  float:left;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+}
+.repo-name
+{
+  margin: 0;
+}
+.repo-info ul
+{
+  list-style: none;
+}
+.repo-desc
+{
+  font-size: 13px;
+}
+.repo-stat ul li
+{
+  float:left;
+  margin-right: 10px;
+}
+.repo-stat p { font-size: 12px;}

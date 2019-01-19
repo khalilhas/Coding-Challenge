@@ -1,12 +1,37 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+class Repo extends React.Component
+{
+  render()
+  {
+      return(
+        <div class="repo">
+          <div class="repo-image">
+            <img src=""/>
+          </div>
+          <div class="repo-info">
+            <ul>
+              <li><h4 class="repo-name">Repo Name:</h4></li>
+              <li><p class="repo-desc">Repository Description</p></li>
+              <li>
+                <div class="repo-stat">
+                  <ul>
+                    <li><p>NB Stars</p></li>
+                    <li><p>Issues</p></li>
+                    <li><p>Time interval by Owner Name</p></li>
+                  </ul>
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      );
+  }
+}
+ReactDOM.render(
+  <Repo />,
+  document.getElementById('root')
+)
